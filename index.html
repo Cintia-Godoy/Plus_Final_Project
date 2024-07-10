@@ -17,12 +17,13 @@
   <body>
     <div class="clima-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
             class="search-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-button" />
         </form>
@@ -31,7 +32,7 @@
       <main>
         <div class="clima-app-data">
           <div>
-            <h1 class="clima-app-city">London</h1>
+            <h1 class="clima-app-city" id="city">London</h1>
             <p class="clima-app-details">
               Wednesday, 16:15 - Cloudy
               <br />
