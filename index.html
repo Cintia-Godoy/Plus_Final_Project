@@ -17,22 +17,33 @@
   <body>
     <div class="clima-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
 
       <main>
-        <div>
-          <h1>London</h1>
-          <p>
-            Wednesday, 16:15 - Cloudy
-            <br />
-            Humidity: 80%; Wind: 20km/h
-          </p>
+        <div class="clima-app-data">
+          <div>
+            <h1 class="clima-app-city">London</h1>
+            <p class="clima-app-details">
+              Wednesday, 16:15 - Cloudy
+              <br />
+              Humidity:<strong> 80%</strong>; Wind: <strong>20km/h</strong>
+            </p>
+          </div>
+          <div class="clima-app-temperature-container">
+            <div class="clima-app-icon">☁️</div>
+            <div class="clima-app-temperature">20</div>
+            <div class="clima-app-degrees">°</div>
+          </div>
         </div>
-        <div>☁️ 20°</div>
       </main>
       <footer>
         Coded by
