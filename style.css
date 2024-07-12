@@ -72,8 +72,8 @@ main {
 }
 
 .clima-app-icon {
-  font-size: 44px;
-  margin-top: 15px;
+  width: 95px;
+  height: 88px;
 }
 
 .clima-app-temperature {
