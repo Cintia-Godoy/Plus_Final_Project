@@ -87,6 +87,38 @@ main {
   font-size: 28px;
 }
 
+.forecast-extra-days {
+  display: flex;
+  justify-content: space-around;
+}
+
+.forecast-date {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0ac6b7;
+  line-height: 20px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.forecast-icon {
+  font-size: 38px;
+  text-align: center;
+}
+
+.forecast-temperatures {
+  text-align: center;
+  font-size: 16px;
+  color: #6cbfeb;
+  display: flex;
+  justify-content: center;
+}
+
+.forecast-temperature {
+  padding: 0 10px;
+}
+
 footer {
   border-top: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
