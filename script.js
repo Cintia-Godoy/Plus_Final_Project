@@ -56,19 +56,26 @@ function handleSearchSubmit(event) {
 }
 
 function displayForecast() {
-  let forecast = document.querySelector("#forecast");
-  forecast.innerHTML = `<div class="clima-each-day"> 
-    
-   <div class="clima-date">Thursday</div> 
-    <div class="clima-icon">☀️</div>  
-    <div class="clima-temperatures">
-        
-       <div class="clima-temperature"><strong>23°</strong> </div>  
+  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+  let forecastHtml = "";
 
-       <div class="clima-temperature">13°</div>  
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+      <div class="clima-each-day"> 
+      <div class="clima-date">${day}</div> 
+      <div class="clima-icon">☀️</div>  
+      <div class="clima-temperatures">
+      <div class="clima-temperature"><strong>23°</strong> </div>  
+      <div class="clima-temperature">13°</div>  
     </div> 
 </div>
 `;
+  });
+
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = forecastHtml;
 }
 
 let searchFormElement = document.querySelector("#search-form");
