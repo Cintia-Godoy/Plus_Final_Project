@@ -87,12 +87,12 @@ main {
   font-size: 28px;
 }
 
-.forecast-extra-days {
+.clima-extra-days {
   display: flex;
   justify-content: space-around;
 }
 
-.forecast-date {
+.clima-date {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
@@ -102,12 +102,12 @@ main {
   margin-bottom: 10px;
 }
 
-.forecast-icon {
+.clima-icon {
   font-size: 38px;
   text-align: center;
 }
 
-.forecast-temperatures {
+.clima-temperatures {
   text-align: center;
   font-size: 16px;
   color: #6cbfeb;
@@ -115,7 +115,7 @@ main {
   justify-content: center;
 }
 
-.forecast-temperature {
+.clima-temperature {
   padding: 0 10px;
 }
 
